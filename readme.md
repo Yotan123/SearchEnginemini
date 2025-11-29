@@ -11,9 +11,29 @@ Proyek ini adalah tugas kuliah untuk membuat mesin pencari sederhana. Sistem ini
 - **Bahasa:** Python
 - **Database:** FIle TZT (Plain Text)
 - **Library:** - `BeautifulSoup` (untuk crawling)
+               - `Flask` (Web Framework)
   
 
 ## 📂 Cara Menjalankan
 1. Clone repository ini:
    ```bash
    git clone [https://github.com/Yotan123/SearchEnginemini.git](https://github.com/Yotan123/SearchEnginemini.git)
+
+2. Install Dependencies
+    ```bash
+    pip install -r requirements.txt
+
+
+Cara Menggunakan 
+1. Masukkan daftar url kedalam file urls.txt
+2. Jalankan Web Crawler:
+    ```bash
+    python search_engine/crawler.py
+
+    Hasil Crawling akan masuk kedalam folder search_engine/dataset/
+3. Jalankan Search Engine Website
+     ```bash
+    python app.py
+4. lalu buka url yang diberikan program nya seperti ini 
+    ```bash 
+    http://127.0.0.1:5000
