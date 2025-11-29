@@ -9,9 +9,9 @@ Proyek ini adalah tugas kuliah untuk membuat mesin pencari sederhana. Sistem ini
 
 ## 🛠️ Teknologi yang Digunakan
 - **Bahasa:** Python
-- **Database:** MySQL / JSON (Sesuaikan dengan yang Anda pakai)
+- **Database:** FIle TZT (Plain Text)
 - **Library:** - `BeautifulSoup` (untuk crawling)
-  - `Pandas` (untuk olah data)
+  
 
 ## 📂 Cara Menjalankan
 1. Clone repository ini:
